@@ -4,13 +4,41 @@ const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown');
 
 
-// array of questions for user
+// array of questions for user-WORK HERE NEXT!!
 const questions = [
     {
         type: 'input',
         name: 'title',
-        message: 'What is the name of this project?'
+        message: 'What is the name of this project? (Required)',
+        validate: projectTitleInput => {
+            if (projectTitleInput) {
+                return true;
+            } else {
+                console.log('Please enter a title for your project!');
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'description',
+        message: 'Enter a description of your project (Required)',
+        validate: projectDescriptionInput => {
+            if (projectDescriptionInput) {
+                return true;
+            } else {
+                console.log('Please enter a description of your project!');
+                return false;
+            }
+        }
+    },
+    {
+        type: 'confirm',
+        name: 'confirmTableOfContents',
+        message: 'Would you like your README to include a Table of Contents to make navigations easier?',
+        default: true,
     }
+
 
 ];
 
