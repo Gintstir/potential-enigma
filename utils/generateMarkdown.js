@@ -4,7 +4,26 @@ function generateMarkdown(data) {
   # ${data.title}          
 
   ## Description
+
   ${data.description}
+
+  ## Table of Contents
+
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Credits](#credits)
+  * [License](#license)
+  * [Questions](#questions)
+   
+  ## Installation
+
+  > ${data.installation}
+
+  ## Usage
+
+  > ${data.usage}
+  >
+  >> ### Screenshots <br> ![${data.altText}](${data.screenshot})
            
 `;
 }
