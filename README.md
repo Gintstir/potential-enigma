@@ -1,37 +1,39 @@
 
-  # **Readme Generator** ![badge](https://img.shields.io/badge/License-MIT-brightgreen.svg)      
+  # **ReadMe-Generator** ![badge](https://img.shields.io/badge/License-Apache~2.0-brightgreen.svg)      
 
   ## **Description**
 
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?
+  ReadMe-generator does exactly that.<br> As a Node.js powered command line application it creates a professional, and stylish README.md file based on a user's input. This input is created by a user responding to prompts generated with the Inquirer npm.
 
   ## **Table of Contents**
 
   * *[Installation](#installation)*
   * *[Usage](#usage)*
-  * *[Credits](#credits)*
-  * *[License](#license)*
+  * *[Contributing](#contributing)*
+  * *[Tests](#tests)*
   * *[Questions](#questions)*
+  * *[License](#license)*
+  
    
   ## **Installation**
-
-  npm install
+  
+  To create a README, first- `clone` or `fork/clone` this repository(see contributing section).<br> Install the required dependencies for this project: `npm install --inquirer`.<br> The application can be run using the command `node index.js` from the command line.
 
   ## **Usage**
 
-  answer promtps
+  After running the command `node index.js` the user will be prompted with a series of questions.<br>  The application then uses the responses to these prompts to generate a README using the fs module `fs.writeFile()`.<br> Once the file has been created, see the newly create README.md file in your file directory.  Enjoy!
   
   ### *Screenshots*
   
-  > ![screenshot](assets/images/screenshot2.png)
+  > ![prompt screenshot](assets/images/screenshot2.png)
 
-  ## **Contributing **
+  ## **Contributing**
 
-  please refer to **[Contributor Covenant](https://www.contributor-covenant.org/)**
+  Please refer to the **[Contributor Covenant](https://www.contributor-covenant.org/)** for contribution guidelines.
 
   ## **Tests**  
   
-  no tests required
+  No test need to be run at this time. 
 
   ## **Questions**
 
@@ -41,9 +43,9 @@
 
   ## **License** 
 
-  Copyright © gintautas Stirbys, 2020.  All Rights Reserved.
+  Copyright © Gintautas Stirbys, 2020.  All Rights Reserved.
 
-  This Project is licensed under the **[MIT](https://opensource.org/licenses/MIT)** license.
+  This Project is licensed under the **[Apache~2.0](https://www.apache.org/licenses/LICENSE-2.0)** license.
 
 
            
