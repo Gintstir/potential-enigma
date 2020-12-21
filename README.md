@@ -1,31 +1,47 @@
 
-  # Readme Generator ![badge](https://img.shields.io/badge/License-MIT-brightgreen.svg)      
+  # **Readme Generator** ![badge](https://img.shields.io/badge/License-MIT-brightgreen.svg)      
 
-  ## Description
+  ## **Description**
 
-  An app for making cheese
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?
 
-  ## Table of Contents
+  ## **Table of Contents**
 
-  * [Installation](#installation)
-  * [Usage](#usage)
-  * [Credits](#credits)
-  * [License](#license)
-  * [Questions](#questions)
+  * *[Installation](#installation)*
+  * *[Usage](#usage)*
+  * *[Credits](#credits)*
+  * *[License](#license)*
+  * *[Questions](#questions)*
    
-  ## Installation
+  ## **Installation**
 
   npm install
 
-  ## Usage
+  ## **Usage**
 
-  nswer prompts as they are presented.  Open readme in file directory when finished to view new readme.
+  answer promtps
   
-  > ### Screenshots <br> ![screenshot](assets/images/screenshot.png)
+  ### *Screenshots*
+  
+  > ![screenshot](assets/images/screenshot2.png)
 
-  ## License 
+  ## **Contributing **
 
-  Copyright © Gintautas Stirbys, 2020.  All Rights Reserved.
+  please refer to **[Contributor Covenant](https://www.contributor-covenant.org/)**
+
+  ## **Tests**  
+  
+  no tests required
+
+  ## **Questions**
+
+  For any questions, comments, or feedback please feel free to reach out: <br>
+  - [Github](https://github.com/gintstir) 
+  - <gint.stirbys@gmail.com>
+
+  ## **License** 
+
+  Copyright © gintautas Stirbys, 2020.  All Rights Reserved.
 
   This Project is licensed under the **[MIT](https://opensource.org/licenses/MIT)** license.
 

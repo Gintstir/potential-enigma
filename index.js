@@ -129,6 +129,33 @@ const questions = [
                 return false;
             }
         }
+    },   
+    {
+        type: 'input',
+        name: 'contributing',
+        message: 'Please provide a guideline of how you would like other developers to contribute to your project.',
+        validate: projectContributeInput => {
+            if (projectContributeInput) {
+                return true;
+            } else {
+                console.log('Please provide a contribution guide for other developers.');
+                return false
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'tests',
+        message: 'What kind of tests should other developers use and how should then be run?',
+        validate: projectTestInput => {
+            if (projectTestInput) {
+                return true;
+            } else {
+                console.log("Please let other developers know what tests should be run and how!");
+                return false;
+            }
+        }
+        
     },
     {
         type: 'list',
@@ -141,34 +168,6 @@ const questions = [
         name: 'licenseLink',
         message: 'Please provide a link for the license you have chosen. Example: https://opensource.org/licenses/MIT - Thankyou!'
     },
-    {
-        type: 'confirm',
-        name: 'confirmContribute',
-        message: 'Would you like to add a "Contribution" section in your readme?',
-        default: true
-    },
-    {
-        type: 'confirm',
-        name: 'confirmCovenant',
-        message: 'Would you like the industry standard "Contribution Covenant" to be your go to contribution guideline?',
-        when: ({confirmContribute}) => {
-            if (confirmContribute) {
-                return true;
-            } else {
-                return false;
-            }
-        }
-    },
-    {
-        type: 'input',
-        message:
-    }
-
-
-    
-    
-
-
 ];
 
 // function to write README file
